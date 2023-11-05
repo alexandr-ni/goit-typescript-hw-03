@@ -9,7 +9,7 @@ class Key {
 class Person {
   private key: Key;
 
-  constructor() {
+  constructor(key: Key) {
     this.key = key;
   }
 
